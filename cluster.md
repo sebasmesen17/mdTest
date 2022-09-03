@@ -1,46 +1,66 @@
-# 1. AWS Policies
-- EKS All Access
-- IAM Limited Access
 
-> [AWS docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html)
+# Ebiller-test < Name of product >
 
-# 2. Group: EKS
-Policies:
-- EksAllAccess (Customer Managed Policy)
-- IamLimitedAccess (Customer Managed Policy)
-- AmazonEC2FullAccess (AWS Managed Policy)
-- AWSCloudFormationFullAccess (AWS Managed Policy)
+## I'm submitting:
 
-# 3. User: eksctl
-- Group: EKS
+- [X] Bug fix 
+- [ ] New feature
 
-## 3.1. eksctl credentials
+## 1. Firmware version: < Version >
+
+## 2. Description & motivation:  
+> < Description >
+
+## 3. ApplicationType: < Programming language > 
+
+## 4. ProductOwner: < PM >
+
+## 5. Layout: < Layout >
+
+---
+
+## PR Dependencies (if apply):
+- First: apply the PR #XXYY 
+- Second: apply the PR #ZZYX 
+
+
+---
+## Configurtion changes
+X conf
 ```
-KEY: xxxxxxx
-SECRET: xxxxx.xxxxxxxxx
+Insert code here
 ```
-# 4. AWS CLI
-> [Install](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-# 5. AWS Profile
-```vim
-aws configure --profile eksctl_lab
-aws sts get-caller-identity --profile eksctl_lab
+Y conf
 ```
-
-# 6. EKSCTL CLI
-> [docs](https://eksctl.io/introduction/#installation)
-```vi
-brew tap weaveworks/tap
-brew install weaveworks/tap/eksctl
-```
-
-# 7. Cluster Config
-```vim
-eksctl create cluster -f eks_config.yaml --profile eksctl_lab
-
-# eliminar cluster
-eksctl delete cluster -f eks_config.yaml --profile eksctl_lab
+Insert code here
 ```
 
+---
+## Step for deployment
+
+First:
+```
+Insert code here
+```
+
+Second:
+```
+Insert code here
+```
+
+Third:
+```
+Insert code here
+```
+---
 
 
+## To-do before merge
+
+- [ ] Merge at hh:mm 
+
+- [ ] Add this producto to the moniroting and metrics services.
+
+## Blackout procedure
+
+### - Rollback to x version
