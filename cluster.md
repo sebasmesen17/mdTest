@@ -11,7 +11,7 @@
 ## 2. Description & motivation:  
 > < Description >
 
-## 3. ApplicationType: < Programming language > 
+## 3. ApplicationType: < docker/.net/outsystem/etc > 
 
 ## 4. ProductOwner: < PM >
 
