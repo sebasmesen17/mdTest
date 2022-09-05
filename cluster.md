@@ -1,20 +1,20 @@
 
-# Ebiller-test < Name of product >
+#  Name of API/APP/Service
 
-## I'm submitting:
-
+## Details
+### 1. Date and time:
+### 2. Project manager in charge: 
+### 3. Developer(s) in charge:
+---
+## 1. I'm submitting:
 - [X] Bug fix 
+- [ ] Configuration change
 - [ ] New feature
 
-## 1. Firmware version: < Version >
-
-## 2. Description & motivation:  
+## 2. Firmware version: < Version >  
+## 3. Description & motivation:  
 > < Description >
-
-## 3. ApplicationType: < docker/.net/outsystem/etc > 
-
-## 4. ProductOwner: < PM >
-
+## 4. ApplicationType: < docker/.net/outsystem/etc > 
 ## 5. Layout: < Layout >
 
 ---
@@ -25,7 +25,7 @@
 
 
 ---
-## Configurtion changes
+## Configuration changes
 X conf
 ```
 Insert code here
@@ -59,8 +59,8 @@ Insert code here
 
 - [ ] Merge at hh:mm 
 
-- [ ] Add this producto to the moniroting and metrics services.
+- [ ] Add this producto to the moniroting and metrics services
 
-## Blackout procedure
+## Backout procedure
 
 ### - Rollback to x version
