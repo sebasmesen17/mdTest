@@ -1,66 +1,47 @@
 
-#  Name of API/APP/Service
+#  Tittle: 
 
 ## Details
-### 1. Date and time:
-### 2. Project manager in charge: 
-### 3. Developer(s) in charge:
----
+### Description & motivation:
+> < Description >  
+### Firmware version: < Version > 
+### ApplicationType: < docker/.net/outsystem/etc > 
+### Type: < Api/service/app >
+### Project manager: 
+### Developer(s): 
+### Relevant links:
+- Endpoint:
+- Repository:
 ## 1. I'm submitting:
 - [X] Bug fix 
 - [ ] Configuration change
 - [ ] New feature
-
-## 2. Firmware version: < Version >  
-## 3. Description & motivation:  
-> < Description >
-## 4. ApplicationType: < docker/.net/outsystem/etc > 
-## 5. Layout: < Layout >
-
+- [ ] Improvements
 ---
 
-## PR Dependencies (if apply):
-- First: apply the PR #XXYY 
-- Second: apply the PR #ZZYX 
+## PR Dependencies:
+- 1: apply the PR #XXYY 
+- 2: apply the PR #ZZYX 
 
-
----
-## Configuration changes
-X conf
-```
-Insert code here
-```
-Y conf
-```
-Insert code here
-```
 
 ---
 ## Step for deployment
 
-First:
+### 1. Configuration changes
 ```
 Insert code here
 ```
-
-Second:
+---
+### 2. Database changes
 ```
-Insert code here
+Insert sql code here
 ```
-
-Third:
+---
+### 3. Deploy / Image
 ```
 Insert code here
 ```
 ---
 
-
-## To-do before merge
-
-- [ ] Merge at hh:mm 
-
-- [ ] Add this producto to the moniroting and metrics services
-
 ## Backout procedure
-
 ### - Rollback to x version
